@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearest Stop Result</title>
+</head>
+<body>
+    <h1>Nearest Stop Information</h1>
+    <p><b>Route Info</b></p>
+    <p>Name: {{ nearest_stop['Name']|e }}</p>
+    <p>Road: {{ nearest_stop['Road']|e }}</p>
+    <p>Distance: {{ nearest_distance|e }}</p>
+    <p><b>Nether Coordinates</b></p>
+    <p>X: {{ nearest_stop['X']|e }}</p>
+    <p>Y: {{ nearest_stop['Y']|e }}</p>
+    <p>Z: {{ nearest_stop['Z']|e }}</p>
+</body>
+</html>
+
